@@ -10,11 +10,32 @@ int main(){
     printf("\n Enter an operator (+,-,*,/): ");
     scanf("%c", &operator);
 
-    printf("\n Enter number1: ")
-    scanf("%lf", & num1)
+    printf("\n Enter number1: ");
+    scanf("%lf", &num1);
 
-     printf("\n Enter number: ")
-    scanf("%lf", & num2)
+     printf("\n Enter number: ");
+    scanf("%lf", &num2);
 
-   return 0
+    switch(operator){
+        case '+':
+            result = num1 + num2;
+            printf("\nresult; %.2lf", result);
+            break;
+         case '-':
+            result = num1 - num2;
+            printf("\nresult; %.2lf", result);
+            break;
+         case '*':
+            result = num1 * num2;
+            printf("\nresult; %.2lf", result);
+            break;
+         case '/':
+            result = num1 / num2;
+            printf("\nresult; %.2lf", result);
+            break;
+        default:
+            printf("%c is not a valid", operator);
+    }
+
+   return 0;
 }
