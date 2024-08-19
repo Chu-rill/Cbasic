@@ -10,10 +10,10 @@ int main(){
     printf("\n Enter an operator (+,-,*,/): ");
     scanf("%c", &operator);
 
-    printf("\n Enter first number")
+    printf("\n Enter number1: ")
     scanf("%lf", & num1)
 
-     printf("\n Enter second number")
+     printf("\n Enter number: ")
     scanf("%lf", & num2)
 
    return 0
