@@ -29,7 +29,7 @@ int main(){
             h=1;
         }
        
-         printf("\n %02d:%02d:%02d", h, m, s);
+         printf("\n %02d:%02d:%02d", h, m, s);// this play the time with colon between
          printf("\n Clock : ");
          usleep(d * 1000);  // Sleep for d milliseconds
         system("clear");   // Clear the screen
